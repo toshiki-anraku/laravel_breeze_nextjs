@@ -1,12 +1,13 @@
 # ToDo
 
-- [Laravel プロジェクトの初期設定](https://qiita.com/ucan-lab/items/8eab84e37421f907dea0) で追加した各種ツール類の説明を追加
-- API定義書の自動生成ツール導入
-- GitHubのリポジトリの各種設定
-- GitHub Actions CI設定
-- クリーンアーキテクチャ、DDDの導入
-- Docsフォルダの作成
-- テーブル定義書の自動生成ツールの導入
+-   [Laravel プロジェクトの初期設定](https://qiita.com/ucan-lab/items/8eab84e37421f907dea0) で追加した各種ツール類の説明を追加
+-   API 定義書の自動生成ツール導入
+-   GitHub のリポジトリの各種設定
+-   GitHub Actions CI 設定
+-   クリーンアーキテクチャ、DDD の導入
+-   Docs フォルダの作成
+-   テーブル定義書の自動生成ツールの導入
+
 # 概要
 
 Laravel Breeze を利用した API。開発環境では Laravel Sail を利用。
@@ -59,7 +60,7 @@ composer install
 ## .env ファイルを作成
 
 ```
-cp .env.example .env
+cp .env.local .env
 ```
 
 ## コンテナの立ち上げ
