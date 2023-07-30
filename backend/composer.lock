@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0c6fe1434832181a8457ca140b06d87",
+    "content-hash": "7178a91170d3a80fe811df82dd36a807",
     "packages": [
         {
             "name": "brick/math",
@@ -10674,6 +10674,65 @@
                 }
             ],
             "time": "2021-07-28T10:34:58+00:00"
+        },
+        {
+            "name": "ucan-lab/laravel-dacapo",
+            "version": "5.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ucan-lab/laravel-dacapo.git",
+                "reference": "8c5642d6f4f3806f3dedba7d6d7ea073845b438d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ucan-lab/laravel-dacapo/zipball/8c5642d6f4f3806f3dedba7d6d7ea073845b438d",
+                "reference": "8c5642d6f4f3806f3dedba7d6d7ea073845b438d",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": ">=9.21.0",
+                "php": "^8.0.2",
+                "symfony/yaml": "^6.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "7.17.0",
+                "phpunit/phpunit": "9.5.27",
+                "roave/security-advisories": "dev-latest"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "UcanLab\\LaravelDacapo\\Providers\\ConsoleServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "UcanLab\\LaravelDacapo\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ucan-lab",
+                    "email": "35098175+ucan-lab@users.noreply.github.com"
+                }
+            ],
+            "description": "Laravel migration support tools",
+            "keywords": [
+                "dacapo",
+                "laravel",
+                "migration"
+            ],
+            "support": {
+                "issues": "https://github.com/ucan-lab/laravel-dacapo/issues",
+                "source": "https://github.com/ucan-lab/laravel-dacapo/tree/5.2.0"
+            },
+            "time": "2022-12-31T13:26:48+00:00"
         }
     ],
     "aliases": [],

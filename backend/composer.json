@@ -27,7 +27,8 @@
         "nunomaduro/larastan": "^2.6",
         "nunomaduro/phpinsights": "^2.8",
         "phpunit/phpunit": "^10.1",
-        "spatie/laravel-ignition": "^2.0"
+        "spatie/laravel-ignition": "^2.0",
+        "ucan-lab/laravel-dacapo": "^5.2"
     },
     "autoload": {
         "psr-4": {
