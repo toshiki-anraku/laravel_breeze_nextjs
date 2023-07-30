@@ -55,3 +55,6 @@ develop ブランチが開発環境で master が本番環境です。
 - [Laravel プロジェクトの初期設定](https://qiita.com/ucan-lab/items/8eab84e37421f907dea0)
 - [エンジニアが開発しやすい環境作りをする](https://zenn.dev/sutamac/articles/5a262f0096176a)
 - [Laravel スターターキット Breeze と Next.js／API](https://readouble.com/laravel/10.x/ja/starter-kits.html)
+- [5 年間 Laravel を使って辿り着いた，全然頑張らない「なんちゃってクリーンアーキテクチャ」という落としどころ](https://zenn.dev/mpyw/articles/ce7d09eb6d8117)
+- [ddd-backend-with-laravel](https://github.com/hiroki-it/ddd-backend-with-laravel)
+- [【PHPerKaigi2022 後日談】なんちゃって Entity を導入しよう](https://zenn.dev/yumemi_inc/articles/ae349b2dcbddad)
