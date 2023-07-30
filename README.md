@@ -49,3 +49,9 @@ develop ブランチが開発環境で master が本番環境です。
 | feature/\* | 新機能開発中に使うブランチ       | develop | develop         |
 | hotfix/\*  | 公開中のもののバグ修正用ブランチ | master  | develop, master |
 | bugfix/\*  | 開発中のもののバグ修正用ブランチ | develop | develop         |
+
+# 参考サイト
+
+- [Laravel プロジェクトの初期設定](https://qiita.com/ucan-lab/items/8eab84e37421f907dea0)
+- [エンジニアが開発しやすい環境作りをする](https://zenn.dev/sutamac/articles/5a262f0096176a)
+- [Laravel スターターキット Breeze と Next.js／API](https://readouble.com/laravel/10.x/ja/starter-kits.html)
